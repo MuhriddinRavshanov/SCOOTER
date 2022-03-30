@@ -47,24 +47,34 @@ button:hover {
     align-items: center;
 }
 
-.nav .nav-list {
+.nav-list {
     display: flex;
     justify-content: start;
     align-items: center;
     padding: 35px 0px;
 }
 
-.nav .nav-list .nav-item {
-    margin-right: 50px;
+.nav-item {
+    margin-right: 30px;
 }
 
-.nav-list .nav-item p {
+.nav-item a {
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
     line-height: 25px;
     color: #939CAA;
+    border: 2px solid white;
+    padding: 5px 10px;
+    transition: 0.3s;
 }
+
+.nav-item a:hover {
+    color: #FCB72B;
+    border-bottom: 2px solid #FCB72B;
+}
+
+
 
 /* -----------------main start------------------ */
 
