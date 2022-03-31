@@ -487,3 +487,8 @@ button:hover {
     width: 30px;
     height: 30px;
 }
+
+.arsenal {
+    background-color: black;
+    color: red;
+}
